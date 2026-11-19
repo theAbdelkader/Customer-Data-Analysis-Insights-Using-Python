@@ -1,0 +1,10 @@
+check,raw_data,clean_sales
+Rows,541909,391150
+Missing CustomerID,135080,0
+Missing Description,1454,0
+Exact duplicate rows,5268,0
+Quantity <= 0,10624,0
+UnitPrice <= 0,2517,0
+Cancellation invoices (rows),9288,0
+Unique customers,4372,4334
+Unique invoices,25900,18402

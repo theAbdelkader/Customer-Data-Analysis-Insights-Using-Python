@@ -1,0 +1,9 @@
+bucket,description,rows,pct_of_raw_rows,value_gbp
+exact_duplicate,Exact duplicate rows removed,5268,0.97,21740.98
+non_product_code,"Non-product lines (postage, fees, manual, discount, bad debt)",2910,0.54,-45997.02
+zero_or_negative_price,Zero / negative price lines (stock write-offs),2495,0.46,0.0
+return_without_customer,Returns without a customer,162,0.03,-4150.45
+sale_without_customer,Sales without a customer (guest),131418,24.25,1510677.49
+return_kept_for_netting,Returns kept (netted against customer spend),8506,1.57,-471750.71
+clean_sale,Clean customer sales (analysis base),391150,72.18,8737227.64
+TOTAL,All raw rows,541909,100.0,9747747.93

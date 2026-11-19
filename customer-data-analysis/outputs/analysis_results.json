@@ -1,0 +1,1009 @@
+{
+  "kpis": {
+    "period_start": "2010-12-01",
+    "period_end": "2011-12-09",
+    "customers": 4334,
+    "orders": 18402,
+    "gross_revenue": 8737227.64,
+    "returns_value": 471750.71,
+    "net_revenue": 8265476.93,
+    "return_rate_pct": 5.4,
+    "avg_order_value": 474.8,
+    "net_avg_order_value": 449.16,
+    "median_order_value": 301.65,
+    "orders_per_customer": 4.25,
+    "median_orders_per_customer": 2.0,
+    "revenue_per_customer": 2015.97,
+    "net_revenue_per_customer": 1907.12,
+    "units_sold": 5141784,
+    "products": 3659,
+    "countries": 37,
+    "repeat_customers": 2829,
+    "one_time_customers": 1505,
+    "repeat_rate_pct": 65.27,
+    "uk_customer_share_pct": 90.36,
+    "uk_revenue_share_pct": 82.9
+  },
+  "concentration": {
+    "customers_in_base": 4320,
+    "top_1pct_share": 30.15,
+    "top_5pct_share": 48.8,
+    "top_10pct_share": 60.12,
+    "top_20pct_share": 73.75,
+    "bottom_50pct_share": 8.12,
+    "gini": 0.706,
+    "customers_for_80pct_revenue": 1166,
+    "customers_for_80pct_revenue_pct": 26.99,
+    "top_customer_share": 3.37
+  },
+  "repeat_within_90": {
+    "window_days": 90,
+    "eligible_customers": 3368,
+    "repeat_within_window": 1593,
+    "rate_pct": 47.3
+  },
+  "repeat_within_60": {
+    "window_days": 60,
+    "eligible_customers": 3728,
+    "repeat_within_window": 1390,
+    "rate_pct": 37.29
+  },
+  "gap_median_days": 28.0,
+  "cohort_avg_pct": 23.772727272727273,
+  "snapshot_date": "2011-12-10",
+  "backtest_cutoff": "2011-09-11",
+  "rfm_customers": 4320,
+  "unscored_customers": 14,
+  "segments": [
+    {
+      "segment": "Champions",
+      "customers": 1023,
+      "net_revenue": 5536893.13,
+      "avg_recency_days": 13.13,
+      "avg_frequency": 10.67,
+      "avg_net_revenue": 5412.41,
+      "median_net_revenue": 2362.84,
+      "avg_order_value": 418.9,
+      "avg_return_rate_pct": 2.07,
+      "pct_customers": 23.68,
+      "pct_revenue": 66.95,
+      "revenue_per_customer_index": 2.83
+    },
+    {
+      "segment": "Loyal Customers",
+      "customers": 591,
+      "net_revenue": 1052658.23,
+      "avg_recency_days": 39.13,
+      "avg_frequency": 4.47,
+      "avg_net_revenue": 1781.15,
+      "median_net_revenue": 1158.27,
+      "avg_order_value": 386.92,
+      "avg_return_rate_pct": 1.88,
+      "pct_customers": 13.68,
+      "pct_revenue": 12.73,
+      "revenue_per_customer_index": 0.93
+    },
+    {
+      "segment": "Potential Loyalists",
+      "customers": 754,
+      "net_revenue": 415491.09,
+      "avg_recency_days": 39.44,
+      "avg_frequency": 1.61,
+      "avg_net_revenue": 551.05,
+      "median_net_revenue": 397.78,
+      "avg_order_value": 467.91,
+      "avg_return_rate_pct": 1.2,
+      "pct_customers": 17.45,
+      "pct_revenue": 5.02,
+      "revenue_per_customer_index": 0.29
+    },
+    {
+      "segment": "New Customers",
+      "customers": 236,
+      "net_revenue": 74826.17,
+      "avg_recency_days": 19.4,
+      "avg_frequency": 1.0,
+      "avg_net_revenue": 317.06,
+      "median_net_revenue": 227.24,
+      "avg_order_value": 318.65,
+      "avg_return_rate_pct": 0.55,
+      "pct_customers": 5.46,
+      "pct_revenue": 0.9,
+      "revenue_per_customer_index": 0.17
+    },
+    {
+      "segment": "At Risk",
+      "customers": 242,
+      "net_revenue": 273226.75,
+      "avg_recency_days": 144.09,
+      "avg_frequency": 3.45,
+      "avg_net_revenue": 1129.04,
+      "median_net_revenue": 681.16,
+      "avg_order_value": 398.25,
+      "avg_return_rate_pct": 2.86,
+      "pct_customers": 5.6,
+      "pct_revenue": 3.3,
+      "revenue_per_customer_index": 0.59
+    },
+    {
+      "segment": "Can't Lose Them",
+      "customers": 142,
+      "net_revenue": 330265.36,
+      "avg_recency_days": 122.29,
+      "avg_frequency": 5.88,
+      "avg_net_revenue": 2325.81,
+      "median_net_revenue": 1809.34,
+      "avg_order_value": 423.0,
+      "avg_return_rate_pct": 1.73,
+      "pct_customers": 3.29,
+      "pct_revenue": 3.99,
+      "revenue_per_customer_index": 1.21
+    },
+    {
+      "segment": "Hibernating",
+      "customers": 1332,
+      "net_revenue": 586276.59,
+      "avg_recency_days": 209.44,
+      "avg_frequency": 1.28,
+      "avg_net_revenue": 440.15,
+      "median_net_revenue": 304.92,
+      "avg_order_value": 356.19,
+      "avg_return_rate_pct": 1.81,
+      "pct_customers": 30.83,
+      "pct_revenue": 7.09,
+      "revenue_per_customer_index": 0.23
+    }
+  ],
+  "backtest": [
+    {
+      "segment": "Champions",
+      "customers": 885,
+      "repurchase_rate_pct": 83.62,
+      "avg_future_revenue": 2033.05,
+      "total_future_revenue": 1799251.99,
+      "pct_of_future_revenue": 64.4
+    },
+    {
+      "segment": "Loyal Customers",
+      "customers": 674,
+      "repurchase_rate_pct": 64.84,
+      "avg_future_revenue": 532.05,
+      "total_future_revenue": 358598.7,
+      "pct_of_future_revenue": 12.84
+    },
+    {
+      "segment": "Potential Loyalists",
+      "customers": 216,
+      "repurchase_rate_pct": 44.91,
+      "avg_future_revenue": 319.05,
+      "total_future_revenue": 68914.41,
+      "pct_of_future_revenue": 2.47
+    },
+    {
+      "segment": "New Customers",
+      "customers": 242,
+      "repurchase_rate_pct": 45.04,
+      "avg_future_revenue": 256.68,
+      "total_future_revenue": 62115.43,
+      "pct_of_future_revenue": 2.22
+    },
+    {
+      "segment": "At Risk",
+      "customers": 331,
+      "repurchase_rate_pct": 46.53,
+      "avg_future_revenue": 275.29,
+      "total_future_revenue": 91119.46,
+      "pct_of_future_revenue": 3.26
+    },
+    {
+      "segment": "Can't Lose Them",
+      "customers": 106,
+      "repurchase_rate_pct": 67.92,
+      "avg_future_revenue": 675.44,
+      "total_future_revenue": 71596.98,
+      "pct_of_future_revenue": 2.56
+    },
+    {
+      "segment": "Hibernating",
+      "customers": 905,
+      "repurchase_rate_pct": 33.92,
+      "avg_future_revenue": 377.97,
+      "total_future_revenue": 342059.81,
+      "pct_of_future_revenue": 12.24
+    }
+  ],
+  "cut_points": [
+    {
+      "metric": "recency_days",
+      "p20": 14.600000000000136,
+      "p40": 33.0,
+      "p60": 72.0,
+      "p80": 180.0
+    },
+    {
+      "metric": "frequency",
+      "p20": 1.0,
+      "p40": 2.0,
+      "p60": 3.0,
+      "p80": 6.0
+    },
+    {
+      "metric": "net_revenue",
+      "p20": 242.422,
+      "p40": 471.502,
+      "p60": 909.3160000000001,
+      "p80": 1998.8560000000004
+    }
+  ],
+  "cleaning_log": [
+    {
+      "bucket": "exact_duplicate",
+      "description": "Exact duplicate rows removed",
+      "rows": 5268,
+      "pct_of_raw_rows": 0.97,
+      "value_gbp": 21740.98
+    },
+    {
+      "bucket": "non_product_code",
+      "description": "Non-product lines (postage, fees, manual, discount, bad debt)",
+      "rows": 2910,
+      "pct_of_raw_rows": 0.54,
+      "value_gbp": -45997.02
+    },
+    {
+      "bucket": "zero_or_negative_price",
+      "description": "Zero / negative price lines (stock write-offs)",
+      "rows": 2495,
+      "pct_of_raw_rows": 0.46,
+      "value_gbp": 0.0
+    },
+    {
+      "bucket": "return_without_customer",
+      "description": "Returns without a customer",
+      "rows": 162,
+      "pct_of_raw_rows": 0.03,
+      "value_gbp": -4150.45
+    },
+    {
+      "bucket": "sale_without_customer",
+      "description": "Sales without a customer (guest)",
+      "rows": 131418,
+      "pct_of_raw_rows": 24.25,
+      "value_gbp": 1510677.49
+    },
+    {
+      "bucket": "return_kept_for_netting",
+      "description": "Returns kept (netted against customer spend)",
+      "rows": 8506,
+      "pct_of_raw_rows": 1.57,
+      "value_gbp": -471750.71
+    },
+    {
+      "bucket": "clean_sale",
+      "description": "Clean customer sales (analysis base)",
+      "rows": 391150,
+      "pct_of_raw_rows": 72.18,
+      "value_gbp": 8737227.64
+    },
+    {
+      "bucket": "TOTAL",
+      "description": "All raw rows",
+      "rows": 541909,
+      "pct_of_raw_rows": 100.0,
+      "value_gbp": 9747747.93
+    }
+  ],
+  "quality_report": [
+    {
+      "check": "Rows",
+      "raw_data": 541909,
+      "clean_sales": 391150
+    },
+    {
+      "check": "Missing CustomerID",
+      "raw_data": 135080,
+      "clean_sales": 0
+    },
+    {
+      "check": "Missing Description",
+      "raw_data": 1454,
+      "clean_sales": 0
+    },
+    {
+      "check": "Exact duplicate rows",
+      "raw_data": 5268,
+      "clean_sales": 0
+    },
+    {
+      "check": "Quantity <= 0",
+      "raw_data": 10624,
+      "clean_sales": 0
+    },
+    {
+      "check": "UnitPrice <= 0",
+      "raw_data": 2517,
+      "clean_sales": 0
+    },
+    {
+      "check": "Cancellation invoices (rows)",
+      "raw_data": 9288,
+      "clean_sales": 0
+    },
+    {
+      "check": "Unique customers",
+      "raw_data": 4372,
+      "clean_sales": 4334
+    },
+    {
+      "check": "Unique invoices",
+      "raw_data": 25900,
+      "clean_sales": 18402
+    }
+  ],
+  "insights": [
+    {
+      "theme": "High-value customers",
+      "title": "Value comes from how often customers buy, not from how much they put in one basket",
+      "evidence": "Champions place 10.7 orders on average against 1.3 for Hibernating customers, but their average order is similar (\u00a3419 vs \u00a3356). Champions are 24% of customers and 67% of net revenue.",
+      "interpretation": "A customer becomes valuable by returning, so order frequency is the lever that separates the best customers from the rest.",
+      "recommendation": "Measure and manage the second and third order. Reward order frequency (for example a reorder incentive or account-manager contact for customers on their 3rd to 5th order) rather than pushing larger baskets."
+    },
+    {
+      "theme": "Revenue concentration",
+      "title": "A small group of customers carries the business",
+      "evidence": "The top 10% of customers deliver 60% of net revenue and the top 1% (43 customers) deliver 30%. 1,166 customers (27%) produce 80% of revenue; the bottom half adds only 8%. Gini coefficient: 0.71.",
+      "interpretation": "Losing even a few top accounts would be felt immediately in revenue, while the large base of small customers is cheap to lose but also adds little.",
+      "recommendation": "Create a named-account programme for the top 1-5% (dedicated contact, early access to new products, service-level promises) and keep the long tail on low-cost, automated marketing."
+    },
+    {
+      "theme": "At-risk customers",
+      "title": "Customers who bought regularly and then went quiet are the best win-back target",
+      "evidence": "384 customers (At Risk + Can't Lose Them) have spent \u00a3603k but have been inactive for 122-144 days on average; they used to place 3.5-5.9 orders. Can't Lose Them customers are worth \u00a32,326 each on average, and in the back-test 68% of that group still bought in the next 90 days.",
+      "interpretation": "These customers have already proved they like the product. Their usual rhythm is a purchase every ~28 days (median), so a silence of four months or more is a clear warning sign, not normal behaviour.",
+      "recommendation": "Run a personal win-back campaign for Can't Lose Them (call or personal email from an account manager, offer on their previously bought products) and an automated reminder sequence for At Risk. Trigger it when a customer passes about 90 days without an order."
+    },
+    {
+      "theme": "Retention opportunity",
+      "title": "Getting a first-time buyer to order again is the biggest growth lever",
+      "evidence": "35% of customers bought only once and contribute 6.5% of net revenue; repeat customers (average 6.0 orders) contribute 93.5%. Only 47% of customers place a second order within 90 days of their first, and in any later month roughly 24% of a monthly cohort is active.",
+      "interpretation": "Fewer than half of customers reorder within three months of their first purchase, and every monthly cohort loses most of its customers quickly, so the first 90 days decide whether a customer becomes a repeat buyer.",
+      "recommendation": "Build a 90-day onboarding journey: a thank-you and product-care message after the first order, a reorder reminder at ~28 days, and a targeted offer at ~60 days for customers who have not yet reordered."
+    },
+    {
+      "theme": "Segment differences",
+      "title": "New customers and Potential Loyalists are a large pipeline that is still worth little today",
+      "evidence": "New Customers + Potential Loyalists are 23% of customers (990) but only 5.9% of net revenue (average \u00a3551 for Potential Loyalists). Champions are worth \u00a35,412 on average, 10 times more.",
+      "interpretation": "These customers bought recently but have not yet built a habit; if even a fraction move up to Loyal or Champions the revenue effect is large.",
+      "recommendation": "Use 'next best product' recommendations and bundle offers to move them to a 3rd and 4th order. Track the share of this group that reaches Loyal Customers each quarter as a headline KPI."
+    },
+    {
+      "theme": "Low-value inactive customers",
+      "title": "Hibernating customers are the largest group but low priority",
+      "evidence": "31% of customers (1,332) are Hibernating: average 209 days since last order, 1.3 orders and \u00a3440 spent. In the back-test only 34% bought in the next 90 days.",
+      "interpretation": "Winning these customers back is possible but expensive relative to the value at stake.",
+      "recommendation": "Include them only in low-cost, periodic campaigns (seasonal catalogue or email), and suppress them from paid channels. Use their purchase history to find which products brought them in and promote those."
+    },
+    {
+      "theme": "Seasonality",
+      "title": "Revenue is strongly seasonal: September to November is the peak season",
+      "evidence": "September-November 2011 delivered \u00a33.00M (38% of all full-month net revenue). November 2011 was the best month at \u00a31.11M; the average of the other 2011 full months (Jan-Aug) was \u00a3548k. Order frequency is flat (about 1.3-1.6 orders per active customer per month), so the peak comes from more active customers (1,660 in the busiest month).",
+      "interpretation": "The peak is driven by more customers buying in the same month (average order value and orders per customer do not rise in the same way), which is consistent with customers stocking up for the holiday season.",
+      "recommendation": "Plan stock, staffing and marketing around the autumn peak, and start retention campaigns in October so that new seasonal customers are contacted again before the quieter early-year months."
+    },
+    {
+      "theme": "Geography",
+      "title": "The UK is the core market; a few overseas wholesalers are unusually valuable",
+      "evidence": "The UK holds 90% of customers and 82% of net revenue (\u00a31,738 per customer). Highest revenue per customer outside the UK (countries with at least 3 customers): EIRE (\u00a382k per customer, 3 customers), Netherlands (\u00a331k per customer, 9 customers), Australia (\u00a315k per customer, 9 customers).",
+      "interpretation": "Export revenue depends on a handful of accounts, which is both an opportunity (high value) and a risk (very small base).",
+      "recommendation": "Treat the top overseas accounts as key accounts and test a small export wholesale offer in the countries where a few customers already spend heavily."
+    },
+    {
+      "theme": "Purchasing pattern",
+      "title": "Orders cluster mid-week and around midday",
+      "evidence": "Thursday is the busiest day (4,003 orders) and 12:00 is the busiest hour. There are no orders at all recorded on Saturdays.",
+      "interpretation": "Ordering during working hours on working days is consistent with a customer base that includes many business buyers.",
+      "recommendation": "Send campaign emails early on Tuesday-Thursday mornings so they arrive before the midday ordering peak, and confirm whether the Saturday gap is a trading rule or a data-recording issue before drawing any conclusion from it."
+    }
+  ],
+  "top_customers": [
+    {
+      "rank": 1,
+      "CustomerID": 14646,
+      "country": "Netherlands",
+      "segment": "Champions",
+      "net_revenue": 278778.02,
+      "frequency": 72,
+      "recency_days": 2,
+      "avg_order_value": 3876.92,
+      "return_rate_pct": 0.13,
+      "share_of_net_revenue_pct": 3.37
+    },
+    {
+      "rank": 2,
+      "CustomerID": 18102,
+      "country": "United Kingdom",
+      "segment": "Champions",
+      "net_revenue": 259657.3,
+      "frequency": 60,
+      "recency_days": 1,
+      "avg_order_value": 4327.62,
+      "return_rate_pct": 0.0,
+      "share_of_net_revenue_pct": 3.14
+    },
+    {
+      "rank": 3,
+      "CustomerID": 17450,
+      "country": "United Kingdom",
+      "segment": "Champions",
+      "net_revenue": 189575.53,
+      "frequency": 46,
+      "recency_days": 9,
+      "avg_order_value": 4225.89,
+      "return_rate_pct": 2.48,
+      "share_of_net_revenue_pct": 2.29
+    },
+    {
+      "rank": 4,
+      "CustomerID": 14911,
+      "country": "EIRE",
+      "segment": "Champions",
+      "net_revenue": 128768.24,
+      "frequency": 198,
+      "recency_days": 2,
+      "avg_order_value": 687.69,
+      "return_rate_pct": 5.43,
+      "share_of_net_revenue_pct": 1.56
+    },
+    {
+      "rank": 5,
+      "CustomerID": 12415,
+      "country": "Australia",
+      "segment": "Champions",
+      "net_revenue": 123638.18,
+      "frequency": 20,
+      "recency_days": 25,
+      "avg_order_value": 6228.23,
+      "return_rate_pct": 0.74,
+      "share_of_net_revenue_pct": 1.5
+    },
+    {
+      "rank": 6,
+      "CustomerID": 14156,
+      "country": "EIRE",
+      "segment": "Champions",
+      "net_revenue": 113685.77,
+      "frequency": 54,
+      "recency_days": 10,
+      "avg_order_value": 2158.52,
+      "return_rate_pct": 2.47,
+      "share_of_net_revenue_pct": 1.37
+    },
+    {
+      "rank": 7,
+      "CustomerID": 17511,
+      "country": "United Kingdom",
+      "segment": "Champions",
+      "net_revenue": 88138.2,
+      "frequency": 31,
+      "recency_days": 3,
+      "avg_order_value": 2937.5,
+      "return_rate_pct": 3.21,
+      "share_of_net_revenue_pct": 1.07
+    },
+    {
+      "rank": 8,
+      "CustomerID": 16684,
+      "country": "United Kingdom",
+      "segment": "Champions",
+      "net_revenue": 65920.12,
+      "frequency": 28,
+      "recency_days": 5,
+      "avg_order_value": 2380.48,
+      "return_rate_pct": 1.1,
+      "share_of_net_revenue_pct": 0.8
+    },
+    {
+      "rank": 9,
+      "CustomerID": 13694,
+      "country": "United Kingdom",
+      "segment": "Champions",
+      "net_revenue": 62961.54,
+      "frequency": 50,
+      "recency_days": 4,
+      "avg_order_value": 1300.79,
+      "return_rate_pct": 3.2,
+      "share_of_net_revenue_pct": 0.76
+    },
+    {
+      "rank": 10,
+      "CustomerID": 16029,
+      "country": "United Kingdom",
+      "segment": "Loyal Customers",
+      "net_revenue": 60369.93,
+      "frequency": 62,
+      "recency_days": 39,
+      "avg_order_value": 1172.71,
+      "return_rate_pct": 16.97,
+      "share_of_net_revenue_pct": 0.73
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2010-12",
+      "orders": 1394,
+      "gross_revenue": 565199.56,
+      "active_customers": 884,
+      "new_customers": 884,
+      "returning_customers": 0,
+      "units": 310623,
+      "returns_value": 17305.64,
+      "net_revenue": 547893.92,
+      "avg_order_value": 405.45,
+      "orders_per_active_customer": 1.58,
+      "is_partial": false,
+      "mom_growth_pct": NaN
+    },
+    {
+      "month": "2011-01",
+      "orders": 983,
+      "gross_revenue": 562682.91,
+      "active_customers": 739,
+      "new_customers": 416,
+      "returning_customers": 323,
+      "units": 348178,
+      "returns_value": 91252.57,
+      "net_revenue": 471430.34,
+      "avg_order_value": 572.41,
+      "orders_per_active_customer": 1.33,
+      "is_partial": false,
+      "mom_growth_pct": -0.45
+    },
+    {
+      "month": "2011-02",
+      "orders": 992,
+      "gross_revenue": 442293.59,
+      "active_customers": 757,
+      "new_customers": 380,
+      "returning_customers": 377,
+      "units": 264785,
+      "returns_value": 8275.42,
+      "net_revenue": 434018.17,
+      "avg_order_value": 445.86,
+      "orders_per_active_customer": 1.31,
+      "is_partial": false,
+      "mom_growth_pct": -21.4
+    },
+    {
+      "month": "2011-03",
+      "orders": 1312,
+      "gross_revenue": 583143.85,
+      "active_customers": 973,
+      "new_customers": 452,
+      "returning_customers": 521,
+      "units": 347243,
+      "returns_value": 10005.8,
+      "net_revenue": 573138.05,
+      "avg_order_value": 444.47,
+      "orders_per_active_customer": 1.35,
+      "is_partial": false,
+      "mom_growth_pct": 31.85
+    },
+    {
+      "month": "2011-04",
+      "orders": 1139,
+      "gross_revenue": 454440.88,
+      "active_customers": 853,
+      "new_customers": 300,
+      "returning_customers": 553,
+      "units": 291116,
+      "returns_value": 33313.11,
+      "net_revenue": 421127.77,
+      "avg_order_value": 398.98,
+      "orders_per_active_customer": 1.34,
+      "is_partial": false,
+      "mom_growth_pct": -22.07
+    },
+    {
+      "month": "2011-05",
+      "orders": 1544,
+      "gross_revenue": 659242.49,
+      "active_customers": 1054,
+      "new_customers": 284,
+      "returning_customers": 770,
+      "units": 372588,
+      "returns_value": 8928.25,
+      "net_revenue": 650314.24,
+      "avg_order_value": 426.97,
+      "orders_per_active_customer": 1.46,
+      "is_partial": false,
+      "mom_growth_pct": 45.07
+    },
+    {
+      "month": "2011-06",
+      "orders": 1390,
+      "gross_revenue": 653264.92,
+      "active_customers": 990,
+      "new_customers": 242,
+      "returning_customers": 748,
+      "units": 362725,
+      "returns_value": 12635.71,
+      "net_revenue": 640629.21,
+      "avg_order_value": 469.97,
+      "orders_per_active_customer": 1.4,
+      "is_partial": false,
+      "mom_growth_pct": -0.91
+    },
+    {
+      "month": "2011-07",
+      "orders": 1321,
+      "gross_revenue": 591603.79,
+      "active_customers": 946,
+      "new_customers": 187,
+      "returning_customers": 759,
+      "units": 367053,
+      "returns_value": 11389.06,
+      "net_revenue": 580214.73,
+      "avg_order_value": 447.85,
+      "orders_per_active_customer": 1.4,
+      "is_partial": false,
+      "mom_growth_pct": -9.44
+    },
+    {
+      "month": "2011-08",
+      "orders": 1267,
+      "gross_revenue": 635514.38,
+      "active_customers": 933,
+      "new_customers": 169,
+      "returning_customers": 764,
+      "units": 397099,
+      "returns_value": 22909.25,
+      "net_revenue": 612605.13,
+      "avg_order_value": 501.59,
+      "orders_per_active_customer": 1.36,
+      "is_partial": false,
+      "mom_growth_pct": 7.42
+    },
+    {
+      "month": "2011-09",
+      "orders": 1739,
+      "gross_revenue": 938752.63,
+      "active_customers": 1259,
+      "new_customers": 299,
+      "returning_customers": 960,
+      "units": 542825,
+      "returns_value": 16943.89,
+      "net_revenue": 921808.74,
+      "avg_order_value": 539.82,
+      "orders_per_active_customer": 1.38,
+      "is_partial": false,
+      "mom_growth_pct": 47.72
+    },
+    {
+      "month": "2011-10",
+      "orders": 1903,
+      "gross_revenue": 1002326.56,
+      "active_customers": 1361,
+      "new_customers": 357,
+      "returning_customers": 1004,
+      "units": 590174,
+      "returns_value": 41284.07,
+      "net_revenue": 961042.49,
+      "avg_order_value": 526.71,
+      "orders_per_active_customer": 1.4,
+      "is_partial": false,
+      "mom_growth_pct": 6.77
+    },
+    {
+      "month": "2011-11",
+      "orders": 2642,
+      "gross_revenue": 1136534.0,
+      "active_customers": 1660,
+      "new_customers": 323,
+      "returning_customers": 1337,
+      "units": 661545,
+      "returns_value": 23431.88,
+      "net_revenue": 1113102.12,
+      "avg_order_value": 430.18,
+      "orders_per_active_customer": 1.59,
+      "is_partial": false,
+      "mom_growth_pct": 13.39
+    },
+    {
+      "month": "2011-12",
+      "orders": 776,
+      "gross_revenue": 512228.08,
+      "active_customers": 614,
+      "new_customers": 41,
+      "returning_customers": 573,
+      "units": 285830,
+      "returns_value": 174076.06,
+      "net_revenue": 338152.02,
+      "avg_order_value": 660.09,
+      "orders_per_active_customer": 1.26,
+      "is_partial": true,
+      "mom_growth_pct": -54.93
+    }
+  ],
+  "frequency_distribution": [
+    {
+      "orders": "1",
+      "customers": 1505,
+      "net_revenue": 536274.98,
+      "pct_customers": 34.73,
+      "pct_net_revenue": 6.49
+    },
+    {
+      "orders": "2",
+      "customers": 831,
+      "net_revenue": 540081.46,
+      "pct_customers": 19.17,
+      "pct_net_revenue": 6.53
+    },
+    {
+      "orders": "3",
+      "customers": 502,
+      "net_revenue": 592657.34,
+      "pct_customers": 11.58,
+      "pct_net_revenue": 7.17
+    },
+    {
+      "orders": "4",
+      "customers": 395,
+      "net_revenue": 559589.63,
+      "pct_customers": 9.11,
+      "pct_net_revenue": 6.77
+    },
+    {
+      "orders": "5",
+      "customers": 236,
+      "net_revenue": 407213.67,
+      "pct_customers": 5.45,
+      "pct_net_revenue": 4.92
+    },
+    {
+      "orders": "6-9",
+      "customers": 479,
+      "net_revenue": 1289712.58,
+      "pct_customers": 11.05,
+      "pct_net_revenue": 15.6
+    },
+    {
+      "orders": "10-19",
+      "customers": 279,
+      "net_revenue": 1541166.46,
+      "pct_customers": 6.44,
+      "pct_net_revenue": 18.64
+    },
+    {
+      "orders": "20+",
+      "customers": 107,
+      "net_revenue": 2802703.79,
+      "pct_customers": 2.47,
+      "pct_net_revenue": 33.89
+    }
+  ],
+  "repeat_vs_onetime": [
+    {
+      "type": "One-time customers",
+      "customers": 1505,
+      "gross_revenue": 626605.9,
+      "net_revenue": 536274.98,
+      "avg_orders": 1.0,
+      "avg_order_value": 416.35,
+      "pct_customers": 34.73,
+      "pct_net_revenue": 6.49
+    },
+    {
+      "type": "Repeat customers",
+      "customers": 2829,
+      "gross_revenue": 8110621.74,
+      "net_revenue": 7733124.93,
+      "avg_orders": 5.97,
+      "avg_order_value": 415.02,
+      "pct_customers": 65.27,
+      "pct_net_revenue": 93.51
+    }
+  ],
+  "countries": [
+    {
+      "country": "United Kingdom",
+      "customers": 3916,
+      "net_revenue": 6806233.62,
+      "avg_orders": 4.23,
+      "pct_customers": 90.36,
+      "pct_net_revenue": 82.31,
+      "revenue_per_customer": 1738.06
+    },
+    {
+      "country": "Netherlands",
+      "customers": 9,
+      "net_revenue": 283479.54,
+      "avg_orders": 10.33,
+      "pct_customers": 0.21,
+      "pct_net_revenue": 3.43,
+      "revenue_per_customer": 31497.73
+    },
+    {
+      "country": "EIRE",
+      "customers": 3,
+      "net_revenue": 246732.47,
+      "avg_orders": 85.33,
+      "pct_customers": 0.07,
+      "pct_net_revenue": 2.98,
+      "revenue_per_customer": 82244.16
+    },
+    {
+      "country": "Germany",
+      "customers": 94,
+      "net_revenue": 200627.16,
+      "avg_orders": 4.71,
+      "pct_customers": 2.17,
+      "pct_net_revenue": 2.43,
+      "revenue_per_customer": 2134.33
+    },
+    {
+      "country": "France",
+      "customers": 87,
+      "net_revenue": 181385.54,
+      "avg_orders": 4.36,
+      "pct_customers": 2.01,
+      "pct_net_revenue": 2.19,
+      "revenue_per_customer": 2084.89
+    },
+    {
+      "country": "Australia",
+      "customers": 9,
+      "net_revenue": 138087.64,
+      "avg_orders": 6.56,
+      "pct_customers": 0.21,
+      "pct_net_revenue": 1.67,
+      "revenue_per_customer": 15343.07
+    },
+    {
+      "country": "Spain",
+      "customers": 29,
+      "net_revenue": 53078.25,
+      "avg_orders": 3.03,
+      "pct_customers": 0.67,
+      "pct_net_revenue": 0.64,
+      "revenue_per_customer": 1830.28
+    },
+    {
+      "country": "Switzerland",
+      "customers": 19,
+      "net_revenue": 50160.61,
+      "avg_orders": 2.21,
+      "pct_customers": 0.44,
+      "pct_net_revenue": 0.61,
+      "revenue_per_customer": 2640.03
+    },
+    {
+      "country": "Belgium",
+      "customers": 23,
+      "net_revenue": 35796.4,
+      "avg_orders": 4.17,
+      "pct_customers": 0.53,
+      "pct_net_revenue": 0.43,
+      "revenue_per_customer": 1556.37
+    },
+    {
+      "country": "Japan",
+      "customers": 8,
+      "net_revenue": 35419.79,
+      "avg_orders": 2.38,
+      "pct_customers": 0.18,
+      "pct_net_revenue": 0.43,
+      "revenue_per_customer": 4427.47
+    }
+  ],
+  "products": [
+    {
+      "StockCode": "22423",
+      "description": "REGENCY CAKESTAND 3 TIER",
+      "net_revenue": 132567.7,
+      "net_units": 11519.0,
+      "customers": 881
+    },
+    {
+      "StockCode": "85123A",
+      "description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "net_revenue": 93923.15,
+      "net_units": 34185.0,
+      "customers": 856
+    },
+    {
+      "StockCode": "85099B",
+      "description": "JUMBO BAG RED RETROSPOT",
+      "net_revenue": 83056.52,
+      "net_units": 44963.0,
+      "customers": 635
+    },
+    {
+      "StockCode": "47566",
+      "description": "PARTY BUNTING",
+      "net_revenue": 67628.43,
+      "net_units": 15011.0,
+      "customers": 708
+    },
+    {
+      "StockCode": "84879",
+      "description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "net_revenue": 56331.91,
+      "net_units": 35215.0,
+      "customers": 678
+    },
+    {
+      "StockCode": "23084",
+      "description": "RABBIT NIGHT LIGHT",
+      "net_revenue": 51042.84,
+      "net_units": 27045.0,
+      "customers": 450
+    },
+    {
+      "StockCode": "22502",
+      "description": "PICNIC BASKET WICKER SMALL",
+      "net_revenue": 46963.1,
+      "net_units": 1410.0,
+      "customers": 175
+    },
+    {
+      "StockCode": "79321",
+      "description": "CHILLI LIGHTS",
+      "net_revenue": 45915.41,
+      "net_units": 9566.0,
+      "customers": 205
+    },
+    {
+      "StockCode": "22086",
+      "description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "net_revenue": 41423.78,
+      "net_units": 15138.0,
+      "customers": 613
+    },
+    {
+      "StockCode": "21137",
+      "description": "BLACK RECORD COVER FRAME",
+      "net_revenue": 38990.63,
+      "net_units": 11386.0,
+      "customers": 140
+    }
+  ],
+  "weekday": [
+    {
+      "weekday": "Monday",
+      "orders": 2830.0,
+      "revenue": 1326500.48
+    },
+    {
+      "weekday": "Tuesday",
+      "orders": 3156.0,
+      "revenue": 1672493.12
+    },
+    {
+      "weekday": "Wednesday",
+      "orders": 3436.0,
+      "revenue": 1559469.25
+    },
+    {
+      "weekday": "Thursday",
+      "orders": 4003.0,
+      "revenue": 1939228.91
+    },
+    {
+      "weekday": "Friday",
+      "orders": 2809.0,
+      "revenue": 1459797.08
+    },
+    {
+      "weekday": "Saturday",
+      "orders": 0.0,
+      "revenue": 0.0
+    },
+    {
+      "weekday": "Sunday",
+      "orders": 2168.0,
+      "revenue": 779738.8
+    }
+  ],
+  "peak_hour": 12
+}

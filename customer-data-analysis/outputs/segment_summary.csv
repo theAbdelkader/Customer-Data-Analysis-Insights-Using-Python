@@ -1,0 +1,8 @@
+segment,customers,net_revenue,avg_recency_days,avg_frequency,avg_net_revenue,median_net_revenue,avg_order_value,avg_return_rate_pct,pct_customers,pct_revenue,revenue_per_customer_index
+Champions,1023,5536893.13,13.13,10.67,5412.41,2362.84,418.9,2.07,23.68,66.95,2.83
+Loyal Customers,591,1052658.23,39.13,4.47,1781.15,1158.27,386.92,1.88,13.68,12.73,0.93
+Potential Loyalists,754,415491.09,39.44,1.61,551.05,397.78,467.91,1.2,17.45,5.02,0.29
+New Customers,236,74826.17,19.4,1.0,317.06,227.24,318.65,0.55,5.46,0.9,0.17
+At Risk,242,273226.75,144.09,3.45,1129.04,681.16,398.25,2.86,5.6,3.3,0.59
+Can't Lose Them,142,330265.36,122.29,5.88,2325.81,1809.34,423.0,1.73,3.29,3.99,1.21
+Hibernating,1332,586276.59,209.44,1.28,440.15,304.92,356.19,1.81,30.83,7.09,0.23

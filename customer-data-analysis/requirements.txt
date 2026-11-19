@@ -1,0 +1,13 @@
+# Built and tested with Python 3.13 and the versions below. Older versions were NOT tested.
+pandas>=3.0        # tested with 3.0.5
+numpy>=2.0         # tested with 2.5.3
+matplotlib>=3.9    # tested with 3.11.2
+openpyxl>=3.1      # tested with 3.1.5 (reads the Excel file in the notebook checks)
+xlsxwriter>=3.2    # tested with 3.2.9 (writes the Excel workbook)
+reportlab>=4.0     # tested with 5.0.1 (builds the PDF report)
+pillow>=10.0       # tested with 12.3.0 (image sizes for the PDF)
+
+# To open and run the notebook
+jupyterlab>=4.0
+ipykernel>=6.29
+nbconvert>=7.16    # optional: run the notebook from the command line
